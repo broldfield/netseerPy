@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "netseerPy"
+version = "0.1.0"
+description = "First pass at convering Netseer R to Python"
+authors = ["Brodie Oldfield <60982221+broldfield@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+networkit = "^11.0"
+numpy = "^1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
